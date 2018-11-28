@@ -1,12 +1,8 @@
 {
-  "name": "amazon-cognito-identity-node-js",
+  "name": "amazon-cognito-identity-nodejs",
   "description": "Amazon Cognito Identity Provider JavaScript SDK for Server Side Node",
-  "version": "1.0.0",
-  "author": {
-    "name": "Kyle Thomas",
-    "email": "kyle@yellowbasket.io",
-    "url": "http://yellowbasket.io"
-  },
+  "version": "1.0.1",
+  "author": "Kyle Thomas <kyle@yellowbasket.io> (http://yellowbasket.io)",
   "contributors": [
     "Simon Buchan with Skilitics",
     "Jonathan Goldwasser",
@@ -23,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yellowbasket/amazon-cognito-identity-node-js.git"
+    "url": "git+https://github.com/yellowbasket/amazon-cognito-identity-node-js.git"
   },
   "license": "SEE LICENSE IN LICENSE.txt",
   "licenses": [
@@ -85,5 +81,12 @@
     "react-native": "^0.44.0",
     "rimraf": "^2.5.4",
     "webpack": "^3.5.5"
+  },
+  "bugs": {
+    "url": "https://github.com/yellowbasket/amazon-cognito-identity-node-js/issues"
+  },
+  "homepage": "https://github.com/yellowbasket/amazon-cognito-identity-node-js#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
